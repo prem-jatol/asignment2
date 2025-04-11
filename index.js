@@ -11,9 +11,9 @@ app.use(express.json());
 app.use("/", FormRouter);
 
 mongoose.connect(
-    "mongodb://localhost:27017/",
+    "mongodb+srv://premjatol:ishopwebsite@atlascluster.0t8oc.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster",
     {
-        dbName: "AssignColl"
+        dbName: "firstProject"
     }
 ).then(
     (success) => {
